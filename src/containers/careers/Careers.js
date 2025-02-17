@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
-import "./Project.css";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import Button from "../../components/button/Button";
+import "./Careers.css";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard.js";
+import Button from "../../components/button/Button.js";
 import { openSource } from "../../portfolio";
 import { greeting } from "../../portfolio.js";
 

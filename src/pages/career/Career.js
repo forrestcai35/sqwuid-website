@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
-import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
+import Header from "../../components/header/Header.js";
+import Footer from "../../components/footer/Footer.js";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard.js";
+import PublicationCard from "../../components/publicationsCard/PublicationCard.js";
+import Button from "../../components/button/Button.js";
+import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
 import {
   greeting,
@@ -13,8 +13,8 @@ import {
   publications,
 } from "../../home.js";
 import ProjectsData from "../../shared/opensource/projects.json";
-import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
+import "./Career.css";
+import ProjectsImg from "./CareerImg.js";
 
 class Projects extends Component {
   render() {

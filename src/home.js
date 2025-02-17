@@ -8,8 +8,7 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "SWQUID",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  description: "",
   og: {
     title: "SQWUID",
     type: "website",
@@ -23,7 +22,7 @@ const greeting = {
   logo_name: "",
   // nickname: "skwid",
   subTitle:
-    "We’re SQWUID, a small venture-driven team that builds AI products specifically designed to solve real-world problems. Our mission is simple: turn day to day challenges into opportunities to build scalable, robust solutions.",
+    "A small venture-driven team that builds AI products specifically designed to solve real-world problems. Our mission is simple: turn day to day challenges into opportunities to build scalable, robust solutions.",
 };
 
 const socialMediaLinks = [

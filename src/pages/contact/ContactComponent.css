@@ -9,6 +9,11 @@
 
 .contact-heading-div {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center the text inside each element */
+  margin-top: 60px; /* Optional: adjust spacing as needed */
 }
 
 .blog-heading-div {
