@@ -1,0 +1,30 @@
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  /* color: #868e96; */
+}
+
+.footer-div {
+  width: 75%;
+  border-top: 2px solid #ccc; /* Separator Line */
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.footer-texts {
+  display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Space the text to the left and right */
+  width: 100%; /* Full width container */
+  padding-top: 1rem; /* Optional: adds space between the line and text */
+  margin-bottom: 1rem;
+}
+
+.footer-left-text,
+.footer-right-text {
+  font-weight: bold; /* Optional: if you want them to be bold */
+  font-family: "Google Sans Regular"; /* Optional: ensure the same font */
+  color: #868e96; /* Optional: use the color you commented out earlier */
+  margin: 0; /* Remove any default margin */
+  margin-bottom: 1rem;
+}
