@@ -10,12 +10,7 @@ class Portfolios extends Component {
     return (
       <div className="main" id="portfolios">
         <div className="portfolios-header-div">
-          <Fade bottom duration={2000} distance="20px">
-            <h1
-              className="portfolios-header"
-              style={{ color: theme.text }}
-            ></h1>
-          </Fade>
+          <Fade bottom duration={2000} distance="20px"></Fade>
         </div>
         <div className="portfolios-body-div">
           {degrees.degrees.map((degree) => {

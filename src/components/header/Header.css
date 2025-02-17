@@ -25,10 +25,10 @@
   text-decoration: none;
 }
 
-.header li a:hover,
+/* .header li a:hover,
 .header .menu-btn:hover {
-  /* background-color: #A6E1FA; */
-}
+  background-color: #A6E1FA;
+} */
 
 .header .logo {
   display: block;

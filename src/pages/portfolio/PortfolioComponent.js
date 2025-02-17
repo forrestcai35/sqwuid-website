@@ -3,11 +3,8 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Portfolios from "../../containers/portfolios/Portfolios";
-import Certifications from "../../containers/certifications/Certifications";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
+
 // import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../home";
-import { certifications } from "../../home";
 import "./PortfolioComponent.css";
 import { Fade } from "react-reveal";
 
@@ -34,14 +31,10 @@ class Portfolio extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Some of the things we've been built or are currently building!
                 </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
           </Fade>
           <Portfolios theme={this.props.theme} />
-          {certifications.certifications.length > 0 ? (
-            <Certifications theme={this.props.theme} />
-          ) : null}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
