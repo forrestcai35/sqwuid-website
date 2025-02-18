@@ -196,16 +196,16 @@ export const materialTealTheme = {
 };
 
 export const jetblackTheme = {
-  body: "#ffffff",
-  text: "#000000",
+  body: "#2a2829",
+  text: "#ffffff",
   expTxtColor: "#000a12",
   highlight: "#ffffff",
   dark: "#000000",
-  secondaryText: "#5A6377",
+  secondaryText: "#94949c",
   imageHighlight: "#000000",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8d99ae",
-  headerColor: "#ffffff",
-  splashBg: "#000000",
+  headerColor: "#94949c",
+  splashBg: "#ffffff",
 };
 export const chosenTheme = jetblackTheme;

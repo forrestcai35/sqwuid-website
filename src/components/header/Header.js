@@ -39,7 +39,7 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "gray")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Home
@@ -51,13 +51,13 @@ class Header extends Component {
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseEnter={(event) => onMouseEnter(event, "gray")}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Portfolio
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/contact"
                   tag={Link}
@@ -66,9 +66,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Contact
+                  
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </header>
         </div>
