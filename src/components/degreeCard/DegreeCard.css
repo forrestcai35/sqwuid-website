@@ -61,14 +61,14 @@
 
 .card-body {
   /* background-color: #00FF00; */
-  border-top: 0.25px solid #0a0a0a;
-  border-bottom: 1px solid #000000;
-  border-left: 1px solid #0a0a0a;
-  border-right: 1px solid #000000;
+  border-top: 0.25px solid #1d1d1d;
+  border-bottom: 1px solid #1d1d1d;
+  border-left: 1px solid #1d1d1d;
+  border-right: 1px solid #1d1d1d;
   border-radius: 7px;
   margin: 10px auto;
   /* padding: 1.5rem 2rem; */
-  box-shadow: 5px 5px 5px #000000;
+  box-shadow: 5px 5px 5px #1d1d1d;
 }
 
 .visit-btn {
