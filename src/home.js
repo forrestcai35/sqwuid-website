@@ -61,9 +61,9 @@ const skills = {
       title: "Solve",
       fileName: "DataScienceImg",
       skills: [
-        "- Developing highly scalable production ready models for various use cases",
-        "- Experience of working with Computer Vision and NLP projects",
-        "- Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "- Identify & Define: Clarify the problem through input, data analysis, and objective-setting",
+        "- Evaluate & Prioritize: Assess feasibility, risks, and impact to select the optimal solution.",
+        "- Iterate & Improve: Refine the solution post-implementation to enhance outcomes",
       ],
       softwareSkills: [
         // {
@@ -79,8 +79,9 @@ const skills = {
       title: "Develop",
       fileName: "FullStackImg",
       skills: [
-        "- Building responsive website and mobile front ends",
-        "- Creating application backend in Node, Express & Flask",
+        "- Plan & Scope: Outline requirements, timelines, resources, and success metrics",
+        "- Prototype: Build a minimal viable product for validation",
+        "- Optimize functionality based on testing feedback and technical constraints",
       ],
       softwareSkills: [
         // {
@@ -97,9 +98,9 @@ const skills = {
       title: "Design",
       fileName: "DesignImg",
       skills: [
-        "- Design attractive user interface for mobile and web applications",
-        "- Customize logo designs and building logos from scratch",
-        "- Creating the flow of application functionalities to optimize user experience",
+        "- User-Centered Focus: Define user personas, needs, and pain points through empathy and research.",
+        "- Design for diverse users (e.g., ADA compliance, localization).",
+        "- Feedback Loops: Continuously validate designs with stakeholders and end-users",
       ],
       softwareSkills: [
         // {

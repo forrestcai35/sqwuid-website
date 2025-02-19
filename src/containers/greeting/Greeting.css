@@ -82,6 +82,8 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   .greeting-main {
     display: block;
