@@ -28,3 +28,17 @@
   margin: 0; /* Remove any default margin */
   margin-bottom: 1rem;
 }
+
+@media (max-width: 1380px) {
+  .footer-right-text,
+  .footer-left-text {
+    font-size: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-right-text,
+  .footer-left-text {
+    font-size: 80%;
+  }
+}
