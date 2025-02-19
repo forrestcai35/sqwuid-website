@@ -16,12 +16,13 @@ const seo = {
   },
 };
 
-//Home Page
 const greeting = {
   title: "SQWUID",
   logo_name: "",
-  subTitle:
-    "A small venture-driven team that builds AI products specifically designed to solve real-world problems. Our mission is simple: turn day to day challenges into opportunities to build scalable, robust solutions.",
+  subTitle: `A small venture-driven team. We're a  collective of innovators, creators, 
+  athletes, gamers, and believers. 
+Our mission is simple: turn day-to-day challenges into opportunities  
+to build scalable, robust solutions.`,
 };
 
 const socialMediaLinks = [
@@ -42,7 +43,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:prate.help@gmail.com",
+    link: "mailto:hello@sqwuid.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=gmail
   },
@@ -63,10 +64,10 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Solve",
       fileName: "DataScienceImg",
       skills: [
-        "- Developing highly scalable production ready models for various deeplearning and statistical use cases",
+        "- Developing highly scalable production ready models for various use cases",
         "- Experience of working with Computer Vision and NLP projects",
         "- Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
@@ -81,11 +82,10 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Develop",
       fileName: "FullStackImg",
       skills: [
-        "- Building responsive website front end using React-Redux",
-        "- Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "- Building responsive website and mobile front ends",
         "- Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
@@ -98,31 +98,13 @@ const skills = {
         // },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
-    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "GCP",
-    //       fontAwesomeClassname: "simple-icons:googlecloud",
-    //       style: {
-    //         color: "#4285F4",
-    //       },
-    //     },
-    //   ],
-    // },
+
     {
-      title: "UI/UX Design",
+      title: "Design",
       fileName: "DesignImg",
       skills: [
-        "- Designing highly attractive user interface for mobile and web applications",
-        "- Customizing logo designs and building logos from scratch",
+        "- Design attractive user interface for mobile and web applications",
+        "- Customize logo designs and building logos from scratch",
         "- Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
