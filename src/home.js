@@ -120,10 +120,13 @@ const degrees = {
   degrees: [
     {
       title: "PRate",
-      logo_path: "PRateLogo.png",
       duration: "Building...",
-      descriptions: ["A fitness app that allows you to rate your physique."],
-      // website_link: "test.com",
+      descriptions: ["Coming Soon"],
+    },
+    {
+      title: "ZoneAI",
+      duration: "Building...",
+      descriptions: ["Coming Soon"],
     },
   ],
 };
