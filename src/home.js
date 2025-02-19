@@ -62,7 +62,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "- Identify & Define: Clarify the problem through input, data analysis, and objective-setting",
-        "- Evaluate & Prioritize: Assess feasibility, risks, and impact to select the optimal solution.",
+        "- Evaluate & Prioritize: Assess feasibility, risks, and impact to select the optimal solution",
         "- Iterate & Improve: Refine the solution post-implementation to enhance outcomes",
       ],
       softwareSkills: [
@@ -98,8 +98,8 @@ const skills = {
       title: "Design",
       fileName: "DesignImg",
       skills: [
-        "- User-Centered Focus: Define user personas, needs, and pain points through empathy and research.",
-        "- Design for diverse users (e.g., ADA compliance, localization).",
+        "- User-Centered Focus: Define user personas, needs, and pain points through empathy and research",
+        "- Design for diverse users (ADA compliance, localization)",
         "- Feedback Loops: Continuously validate designs with stakeholders and end-users",
       ],
       softwareSkills: [
