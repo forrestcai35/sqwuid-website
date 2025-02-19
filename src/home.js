@@ -115,20 +115,6 @@ const skills = {
   ],
 };
 
-// Portfolio Page
-const competitiveSites = {
-  competitiveSites: [
-    // {
-    //   siteName: "LeetCode",
-    //   iconifyClassname: "simple-icons:leetcode",
-    //   style: {
-    //     color: "#F79F1B",
-    //   },
-    //   profileLink: "https://leetcode.com/layman_brother/",
-    // },
-  ],
-};
-
 // PROJECTS WE ARE DOING
 const degrees = {
   degrees: [
@@ -219,7 +205,6 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
   certifications,
   projectsHeader,
