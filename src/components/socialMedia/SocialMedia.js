@@ -22,8 +22,10 @@ export default function socialMedia(props) {
             key={i}
             href={media.link}
             className={`icon-button`}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={(e) => {
+              e.preventDefault(); // Prevent default anchor behavior
+              window.open(media.link, "_blank", "noopener,noreferrer");
+            }}
           >
             <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
