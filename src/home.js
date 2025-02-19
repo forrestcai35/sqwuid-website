@@ -20,7 +20,7 @@ const greeting = {
   title: "SQWUID",
   logo_name: "",
   subTitle: `A small venture-driven team. We're a  collective of innovators, creators, 
-  athletes, gamers, and believers. 
+  athletes, gamers, and dreamers. 
 Our mission is simple: turn day-to-day challenges into opportunities  
 to build scalable, robust solutions.`,
 };
@@ -36,29 +36,23 @@ const socialMediaLinks = [
   },
 
   {
-    name: "YouTube",
-    link: "https://youtube.com",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
     link: "mailto:hello@sqwuid.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Tiktok",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-tiktok", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Tiktok",
+  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   fontAwesomeIcon: "fa-tiktok", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/layman_brother/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -140,9 +134,9 @@ const degrees = {
     {
       title: "PRate",
       logo_path: "PRateLogo.png",
-      duration: "Est. 2025",
+      duration: "Building...",
       descriptions: ["A fitness app that allows you to rate your physique."],
-      website_link: "test.com",
+      // website_link: "test.com",
     },
   ],
 };
@@ -176,46 +170,46 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-  ],
+  // data: [
+  //   {
+  //     id: "neuro-symbolic-sudoku-solver",
+  //     name: "Neuro-Symbolic Sudoku Solver",
+  //     createdAt: "2023-07-02T00:00:00Z",
+  //     description: "Paper published in KDD KiML 2023",
+  //     url: "https://arxiv.org/abs/2307.00653",
+  //   },
+  // ],
 };
 
 // Contact Page
 const contactPageData = {
-  contactSection: {
-    title: "Contact Us",
-    profile_image_path: "animated_ashutosh.png",
-    description: "",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
-  },
-  phoneSection: {
-    title: "",
-    subtitle: "",
-  },
+  // contactSection: {
+  //   title: "Contact Us",
+  //   profile_image_path: "animated_ashutosh.png",
+  //   description: "",
+  // },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+  //   link: "https://blogs.ashutoshhathidara.com/",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
+  // addressSection: {
+  //   title: "Address",
+  //   subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
+  //   locality: "San Jose",
+  //   country: "USA",
+  //   region: "California",
+  //   postalCode: "95129",
+  //   streetAddress: "Saratoga Avenue",
+  //   avatar_image_path: "address_image.svg",
+  //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+  // },
+  // phoneSection: {
+  //   title: "",
+  //   subtitle: "",
+  // },
 };
 
 export {
