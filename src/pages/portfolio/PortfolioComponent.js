@@ -29,7 +29,7 @@ class Portfolio extends Component {
                   Our Work
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Some of the things we've been built or are currently building!
+                  Some of the things we've built or are currently building!
                 </h3>
               </div>
             </div>
