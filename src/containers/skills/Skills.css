@@ -65,7 +65,9 @@
     flex-direction: column;
   }
   .skills-text-div {
-    margin-left: 0px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 20px;
   }
   .skills-text {
