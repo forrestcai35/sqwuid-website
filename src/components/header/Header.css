@@ -144,8 +144,19 @@
     display: none;
   }
 }
+
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 16px;
+  }
+  .logo-image {
+    width: 45px;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .logo-image {
+    width: 40px;
+    height: auto;
   }
 }
